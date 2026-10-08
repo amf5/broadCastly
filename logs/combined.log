@@ -1,0 +1,1255 @@
+2026-09-23 00:16:54 [INFO]: Starting server...
+2026-09-23 00:16:57 [ERROR]: MySQL connection error (attempt 1/5): Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:791:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:552:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:102:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:439:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-23 00:17:00 [ERROR]: MySQL connection error (attempt 2/5): Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:791:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:552:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:102:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:439:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-23 00:17:04 [ERROR]: MySQL connection error (attempt 3/5): Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:791:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:552:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:102:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:439:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-23 00:17:11 [ERROR]: MySQL connection error (attempt 4/5): Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:791:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:552:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:102:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:439:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-23 00:17:19 [ERROR]: MySQL connection error (attempt 5/5): Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.root'@'156.194.35.230' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:791:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:552:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:102:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:439:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-23 00:19:06 [INFO]: Starting server...
+2026-09-23 00:19:07 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-23 00:19:07 [ERROR]: MySQL connection error (attempt 1/5): You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near "database
+        "  {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near \"database\n        \" ","sql":"\n        SELECT\n          1 AS connected,\n          VERSION() AS version,\n          DATABASE() AS database\n        "}
+Error: You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near "database
+        " 
+    at connectMySQL (D:\App_Live\src\config\database\mysql.ts:102:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async startServer (D:\App_Live\src\server.ts:26:5)
+2026-09-23 00:19:09 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-23 00:19:09 [ERROR]: MySQL connection error (attempt 2/5): You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near "database
+        "  {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near \"database\n        \" ","sql":"\n        SELECT\n          1 AS connected,\n          VERSION() AS version,\n          DATABASE() AS database\n        "}
+Error: You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near "database
+        " 
+    at connectMySQL (D:\App_Live\src\config\database\mysql.ts:102:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async startServer (D:\App_Live\src\server.ts:26:5)
+2026-09-23 00:19:14 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-23 00:19:14 [ERROR]: MySQL connection error (attempt 3/5): You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near "database
+        "  {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near \"database\n        \" ","sql":"\n        SELECT\n          1 AS connected,\n          VERSION() AS version,\n          DATABASE() AS database\n        "}
+Error: You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near "database
+        " 
+    at connectMySQL (D:\App_Live\src\config\database\mysql.ts:102:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async startServer (D:\App_Live\src\server.ts:26:5)
+2026-09-23 00:19:20 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-23 00:19:20 [ERROR]: MySQL connection error (attempt 4/5): You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near "database
+        "  {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near \"database\n        \" ","sql":"\n        SELECT\n          1 AS connected,\n          VERSION() AS version,\n          DATABASE() AS database\n        "}
+Error: You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near "database
+        " 
+    at connectMySQL (D:\App_Live\src\config\database\mysql.ts:102:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async startServer (D:\App_Live\src\server.ts:26:5)
+2026-09-23 00:19:29 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-23 00:19:29 [ERROR]: MySQL connection error (attempt 5/5): You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near "database
+        "  {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near \"database\n        \" ","sql":"\n        SELECT\n          1 AS connected,\n          VERSION() AS version,\n          DATABASE() AS database\n        "}
+Error: You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 5 column 33 near "database
+        " 
+    at connectMySQL (D:\App_Live\src\config\database\mysql.ts:102:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async startServer (D:\App_Live\src\server.ts:26:5)
+2026-09-23 00:23:24 [INFO]: Starting server...
+2026-09-23 00:23:25 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-23 00:23:26 [INFO]: MongoDB connected successfully
+2026-09-23 00:23:26 [INFO]: Server started on port 3000
+2026-09-24 02:46:27 [INFO]: Starting server...
+2026-09-24 02:46:30 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 02:47:00 [ERROR]: MongoDB connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/ {"errorLabelSet":{},"reason":{"type":"ReplicaSetNoPrimary","servers":{"ac-3jujzy3-shard-00-02.usyahjg.mongodb.net:27017":{"address":"ac-3jujzy3-shard-00-02.usyahjg.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":68357,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-3jujzy3-shard-00-01.usyahjg.mongodb.net:27017":{"address":"ac-3jujzy3-shard-00-01.usyahjg.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":68975,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-3jujzy3-shard-00-00.usyahjg.mongodb.net:27017":{"address":"ac-3jujzy3-shard-00-00.usyahjg.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":68899,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-n09wct-shard-0","maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null},"cause":{"type":"ReplicaSetNoPrimary","servers":{"ac-3jujzy3-shard-00-02.usyahjg.mongodb.net:27017":{"address":"ac-3jujzy3-shard-00-02.usyahjg.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":68357,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-3jujzy3-shard-00-01.usyahjg.mongodb.net:27017":{"address":"ac-3jujzy3-shard-00-01.usyahjg.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":68975,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-3jujzy3-shard-00-00.usyahjg.mongodb.net:27017":{"address":"ac-3jujzy3-shard-00-00.usyahjg.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":68899,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-n09wct-shard-0","maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}}
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (D:\App_Live\node_modules\mongoose\lib\connection.js:1180:11)
+    at NativeConnection.openUri (D:\App_Live\node_modules\mongoose\lib\connection.js:1111:11)
+    at async connectMongoDB (D:\App_Live\src\config\database\mongodb.ts:26:5)
+    at async startServer (D:\App_Live\src\server.ts:31:5)
+2026-09-24 02:47:17 [INFO]: Starting server...
+2026-09-24 02:47:18 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 02:47:48 [ERROR]: MongoDB connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/ {"errorLabelSet":{},"reason":{"type":"ReplicaSetNoPrimary","servers":{"ac-3jujzy3-shard-00-02.usyahjg.mongodb.net:27017":{"address":"ac-3jujzy3-shard-00-02.usyahjg.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":30926,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-3jujzy3-shard-00-01.usyahjg.mongodb.net:27017":{"address":"ac-3jujzy3-shard-00-01.usyahjg.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":30927,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-3jujzy3-shard-00-00.usyahjg.mongodb.net:27017":{"address":"ac-3jujzy3-shard-00-00.usyahjg.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":30928,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-n09wct-shard-0","maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null},"cause":{"type":"ReplicaSetNoPrimary","servers":{"ac-3jujzy3-shard-00-02.usyahjg.mongodb.net:27017":{"address":"ac-3jujzy3-shard-00-02.usyahjg.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":30926,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-3jujzy3-shard-00-01.usyahjg.mongodb.net:27017":{"address":"ac-3jujzy3-shard-00-01.usyahjg.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":30927,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"ac-3jujzy3-shard-00-00.usyahjg.mongodb.net:27017":{"address":"ac-3jujzy3-shard-00-00.usyahjg.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":30928,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-n09wct-shard-0","maxElectionId":null,"maxSetVersion":null,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}}
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (D:\App_Live\node_modules\mongoose\lib\connection.js:1180:11)
+    at NativeConnection.openUri (D:\App_Live\node_modules\mongoose\lib\connection.js:1111:11)
+    at async connectMongoDB (D:\App_Live\src\config\database\mongodb.ts:26:5)
+    at async startServer (D:\App_Live\src\server.ts:31:5)
+2026-09-24 02:49:47 [INFO]: Starting server...
+2026-09-24 02:49:47 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 02:49:49 [INFO]: MongoDB connected successfully
+2026-09-24 02:49:52 [ERROR]: Kafka connection error: SASL SCRAM SHA256 authentication failed: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-256 {"name":"KafkaJSSASLAuthenticationError","retriable":false}
+KafkaJSSASLAuthenticationError: SASL SCRAM SHA256 authentication failed: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-256
+    at SCRAM.authenticate (D:\App_Live\node_modules\kafkajs\src\broker\saslAuthenticator\scram.js:158:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.authenticate (D:\App_Live\node_modules\kafkajs\src\broker\saslAuthenticator\scram256.js:6:31)
+    at async SASLAuthenticator.authenticate (D:\App_Live\node_modules\kafkajs\src\broker\saslAuthenticator\index.js:73:5)
+    at async D:\App_Live\node_modules\kafkajs\src\network\connection.js:139:9
+    at async Connection.authenticate (D:\App_Live\node_modules\kafkajs\src\network\connection.js:315:5)
+    at async Broker.connect (D:\App_Live\node_modules\kafkajs\src\broker\index.js:111:7)
+    at async D:\App_Live\node_modules\kafkajs\src\cluster\brokerPool.js:93:9
+    at async D:\App_Live\node_modules\kafkajs\src\cluster\index.js:107:14
+    at async Cluster.connect (D:\App_Live\node_modules\kafkajs\src\cluster\index.js:146:5)
+2026-09-24 02:49:52 [WARN]: Kafka connection failed — continuing without Kafka {"error":"SASL SCRAM SHA256 authentication failed: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-256"}
+2026-09-24 02:49:52 [INFO]: Server started on port 3000
+2026-09-24 02:51:37 [INFO]: Starting server...
+2026-09-24 02:51:37 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 02:51:38 [INFO]: MongoDB connected successfully
+2026-09-24 02:51:39 [ERROR]: Kafka connection error: SASL SCRAM SHA256 authentication failed: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-256 {"name":"KafkaJSSASLAuthenticationError","retriable":false}
+KafkaJSSASLAuthenticationError: SASL SCRAM SHA256 authentication failed: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-256
+    at SCRAM.authenticate (D:\App_Live\node_modules\kafkajs\src\broker\saslAuthenticator\scram.js:158:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.authenticate (D:\App_Live\node_modules\kafkajs\src\broker\saslAuthenticator\scram256.js:6:31)
+    at async SASLAuthenticator.authenticate (D:\App_Live\node_modules\kafkajs\src\broker\saslAuthenticator\index.js:73:5)
+    at async D:\App_Live\node_modules\kafkajs\src\network\connection.js:139:9
+    at async Connection.authenticate (D:\App_Live\node_modules\kafkajs\src\network\connection.js:315:5)
+    at async Broker.connect (D:\App_Live\node_modules\kafkajs\src\broker\index.js:111:7)
+    at async D:\App_Live\node_modules\kafkajs\src\cluster\brokerPool.js:93:9
+    at async D:\App_Live\node_modules\kafkajs\src\cluster\index.js:107:14
+    at async Cluster.connect (D:\App_Live\node_modules\kafkajs\src\cluster\index.js:146:5)
+2026-09-24 02:51:39 [WARN]: Kafka connection failed — continuing without Kafka {"error":"SASL SCRAM SHA256 authentication failed: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-256"}
+2026-09-24 02:51:39 [INFO]: Server started on port 3000
+2026-09-24 02:57:50 [INFO]: Starting server...
+2026-09-24 02:57:51 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 02:57:52 [INFO]: MongoDB connected successfully
+2026-09-24 02:57:53 [ERROR]: Kafka connection error: SASL SCRAM SHA256 authentication failed: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-256 {"name":"KafkaJSSASLAuthenticationError","retriable":false}
+KafkaJSSASLAuthenticationError: SASL SCRAM SHA256 authentication failed: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-256
+    at SCRAM.authenticate (D:\App_Live\node_modules\kafkajs\src\broker\saslAuthenticator\scram.js:158:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.authenticate (D:\App_Live\node_modules\kafkajs\src\broker\saslAuthenticator\scram256.js:6:31)
+    at async SASLAuthenticator.authenticate (D:\App_Live\node_modules\kafkajs\src\broker\saslAuthenticator\index.js:73:5)
+    at async D:\App_Live\node_modules\kafkajs\src\network\connection.js:139:9
+    at async Connection.authenticate (D:\App_Live\node_modules\kafkajs\src\network\connection.js:315:5)
+    at async Broker.connect (D:\App_Live\node_modules\kafkajs\src\broker\index.js:111:7)
+    at async D:\App_Live\node_modules\kafkajs\src\cluster\brokerPool.js:93:9
+    at async D:\App_Live\node_modules\kafkajs\src\cluster\index.js:107:14
+    at async Cluster.connect (D:\App_Live\node_modules\kafkajs\src\cluster\index.js:146:5)
+2026-09-24 02:57:53 [WARN]: Kafka connection failed — continuing without Kafka {"error":"SASL SCRAM SHA256 authentication failed: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-256"}
+2026-09-24 02:57:53 [INFO]: Server started on port 3000
+2026-09-24 03:03:34 [INFO]: Starting server...
+2026-09-24 03:03:35 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 03:03:36 [INFO]: MongoDB connected successfully
+2026-09-24 03:03:37 [ERROR]: Kafka connection error: SASL SCRAM SHA256 authentication failed: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-256 {"name":"KafkaJSSASLAuthenticationError","retriable":false}
+KafkaJSSASLAuthenticationError: SASL SCRAM SHA256 authentication failed: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-256
+    at SCRAM.authenticate (D:\App_Live\node_modules\kafkajs\src\broker\saslAuthenticator\scram.js:158:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.authenticate (D:\App_Live\node_modules\kafkajs\src\broker\saslAuthenticator\scram256.js:6:31)
+    at async SASLAuthenticator.authenticate (D:\App_Live\node_modules\kafkajs\src\broker\saslAuthenticator\index.js:73:5)
+    at async D:\App_Live\node_modules\kafkajs\src\network\connection.js:139:9
+    at async Connection.authenticate (D:\App_Live\node_modules\kafkajs\src\network\connection.js:315:5)
+    at async Broker.connect (D:\App_Live\node_modules\kafkajs\src\broker\index.js:111:7)
+    at async D:\App_Live\node_modules\kafkajs\src\cluster\brokerPool.js:93:9
+    at async D:\App_Live\node_modules\kafkajs\src\cluster\index.js:107:14
+    at async Cluster.connect (D:\App_Live\node_modules\kafkajs\src\cluster\index.js:146:5)
+2026-09-24 03:03:37 [WARN]: Kafka connection failed — continuing without Kafka {"error":"SASL SCRAM SHA256 authentication failed: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-256"}
+2026-09-24 03:03:37 [INFO]: Server started on port 3000
+2026-09-24 03:05:09 [INFO]: Starting server...
+2026-09-24 03:05:09 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 03:05:10 [INFO]: MongoDB connected successfully
+2026-09-24 03:05:13 [INFO]: Kafka connected successfully
+2026-09-24 03:05:13 [INFO]: Server started on port 3000
+2026-09-24 20:24:42 [INFO]: Starting server...
+2026-09-24 20:24:46 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 20:24:47 [INFO]: MongoDB connected successfully
+2026-09-24 20:24:47 [ERROR]: MySQL query error: {"sql":"\n    CREATE TABLE IF NOT EXISTS users (\n      id VARCHAR(36) PRIMARY KEY,\n      username VARCHAR(50) UNIQUE NOT NULL,\n      email VARCHAR(255) UNIQUE NOT NULL,\n      password_hash VARCHAR(255) NOT NULL,\n      role ENUM('user', 'admin', 'streamer') DEFAULT 'user',\n      social_media_keys JSON,\n      is_active BOOLEAN DEFAULT TRUE,\n      last_login TIMESTAMP NULL,\n      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n      updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n      INDEX idx_username (username),\n      INDEX idx_email (email),\n      INDEX idx_role (role)\n    )\n  ","error":{"code":"ER_TABLEACCESS_DENIED_ERROR","errno":1142,"sqlState":"42000","sqlMessage":"CREATE command denied to user '3zGXJnrbXLNbUa5.root'@'%' for table 'users'","sql":"\n    CREATE TABLE IF NOT EXISTS users (\n      id VARCHAR(36) PRIMARY KEY,\n      username VARCHAR(50) UNIQUE NOT NULL,\n      email VARCHAR(255) UNIQUE NOT NULL,\n      password_hash VARCHAR(255) NOT NULL,\n      role ENUM('user', 'admin', 'streamer') DEFAULT 'user',\n      social_media_keys JSON,\n      is_active BOOLEAN DEFAULT TRUE,\n      last_login TIMESTAMP NULL,\n      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n      updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n      INDEX idx_username (username),\n      INDEX idx_email (email),\n      INDEX idx_role (role)\n    )\n  "}}
+2026-09-24 20:33:57 [INFO]: Starting server...
+2026-09-24 20:33:58 [ERROR]: MySQL connection error (attempt 1/5): Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:34:01 [ERROR]: MySQL connection error (attempt 2/5): Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:34:05 [ERROR]: MySQL connection error (attempt 3/5): Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:34:12 [ERROR]: MySQL connection error (attempt 4/5): Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:34:20 [ERROR]: MySQL connection error (attempt 5/5): Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw@%'@'156.194.251.222' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:36:36 [INFO]: Starting server...
+2026-09-24 20:36:37 [ERROR]: MySQL connection error (attempt 1/5): Server requested authentication using mysql_clear_password, which sends the password in plaintext over the network and is disabled by default. To enable it, set the `enableCleartextPlugin` option to `true` in your connection configuration, or provide a custom `mysql_clear_password` auth plugin via the `authPlugins` option. Only use this over a secure connection (TLS/SSL). {"code":"MYSQL_CLEAR_PASSWORD_NOT_ENABLED","fatal":true}
+Error: Server requested authentication using mysql_clear_password, which sends the password in plaintext over the network and is disabled by default. To enable it, set the `enableCleartextPlugin` option to `true` in your connection configuration, or provide a custom `mysql_clear_password` auth plugin via the `authPlugins` option. Only use this over a secure connection (TLS/SSL).
+    at Object.authSwitchRequest (D:\App_Live\node_modules\mysql2\lib\commands\auth_switch.js:83:19)
+    at ClientHandshake.handshakeResult (D:\App_Live\node_modules\mysql2\lib\commands\client_handshake.js:364:22)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:45:22)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2026-09-24 20:36:39 [ERROR]: MySQL connection error (attempt 2/5): Server requested authentication using mysql_clear_password, which sends the password in plaintext over the network and is disabled by default. To enable it, set the `enableCleartextPlugin` option to `true` in your connection configuration, or provide a custom `mysql_clear_password` auth plugin via the `authPlugins` option. Only use this over a secure connection (TLS/SSL). {"code":"MYSQL_CLEAR_PASSWORD_NOT_ENABLED","fatal":true}
+Error: Server requested authentication using mysql_clear_password, which sends the password in plaintext over the network and is disabled by default. To enable it, set the `enableCleartextPlugin` option to `true` in your connection configuration, or provide a custom `mysql_clear_password` auth plugin via the `authPlugins` option. Only use this over a secure connection (TLS/SSL).
+    at Object.authSwitchRequest (D:\App_Live\node_modules\mysql2\lib\commands\auth_switch.js:83:19)
+    at ClientHandshake.handshakeResult (D:\App_Live\node_modules\mysql2\lib\commands\client_handshake.js:364:22)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:45:22)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2026-09-24 20:36:44 [ERROR]: MySQL connection error (attempt 3/5): Server requested authentication using mysql_clear_password, which sends the password in plaintext over the network and is disabled by default. To enable it, set the `enableCleartextPlugin` option to `true` in your connection configuration, or provide a custom `mysql_clear_password` auth plugin via the `authPlugins` option. Only use this over a secure connection (TLS/SSL). {"code":"MYSQL_CLEAR_PASSWORD_NOT_ENABLED","fatal":true}
+Error: Server requested authentication using mysql_clear_password, which sends the password in plaintext over the network and is disabled by default. To enable it, set the `enableCleartextPlugin` option to `true` in your connection configuration, or provide a custom `mysql_clear_password` auth plugin via the `authPlugins` option. Only use this over a secure connection (TLS/SSL).
+    at Object.authSwitchRequest (D:\App_Live\node_modules\mysql2\lib\commands\auth_switch.js:83:19)
+    at ClientHandshake.handshakeResult (D:\App_Live\node_modules\mysql2\lib\commands\client_handshake.js:364:22)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:45:22)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2026-09-24 20:36:50 [ERROR]: MySQL connection error (attempt 4/5): Server requested authentication using mysql_clear_password, which sends the password in plaintext over the network and is disabled by default. To enable it, set the `enableCleartextPlugin` option to `true` in your connection configuration, or provide a custom `mysql_clear_password` auth plugin via the `authPlugins` option. Only use this over a secure connection (TLS/SSL). {"code":"MYSQL_CLEAR_PASSWORD_NOT_ENABLED","fatal":true}
+Error: Server requested authentication using mysql_clear_password, which sends the password in plaintext over the network and is disabled by default. To enable it, set the `enableCleartextPlugin` option to `true` in your connection configuration, or provide a custom `mysql_clear_password` auth plugin via the `authPlugins` option. Only use this over a secure connection (TLS/SSL).
+    at Object.authSwitchRequest (D:\App_Live\node_modules\mysql2\lib\commands\auth_switch.js:83:19)
+    at ClientHandshake.handshakeResult (D:\App_Live\node_modules\mysql2\lib\commands\client_handshake.js:364:22)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:45:22)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2026-09-24 20:36:58 [ERROR]: MySQL connection error (attempt 5/5): Server requested authentication using mysql_clear_password, which sends the password in plaintext over the network and is disabled by default. To enable it, set the `enableCleartextPlugin` option to `true` in your connection configuration, or provide a custom `mysql_clear_password` auth plugin via the `authPlugins` option. Only use this over a secure connection (TLS/SSL). {"code":"MYSQL_CLEAR_PASSWORD_NOT_ENABLED","fatal":true}
+Error: Server requested authentication using mysql_clear_password, which sends the password in plaintext over the network and is disabled by default. To enable it, set the `enableCleartextPlugin` option to `true` in your connection configuration, or provide a custom `mysql_clear_password` auth plugin via the `authPlugins` option. Only use this over a secure connection (TLS/SSL).
+    at Object.authSwitchRequest (D:\App_Live\node_modules\mysql2\lib\commands\auth_switch.js:83:19)
+    at ClientHandshake.handshakeResult (D:\App_Live\node_modules\mysql2\lib\commands\client_handshake.js:364:22)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:45:22)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+2026-09-24 20:39:26 [INFO]: Starting server...
+2026-09-24 20:39:26 [ERROR]: MySQL connection error (attempt 1/5): Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:39:29 [ERROR]: MySQL connection error (attempt 2/5): Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:39:34 [ERROR]: MySQL connection error (attempt 3/5): Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:39:40 [ERROR]: MySQL connection error (attempt 4/5): Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:39:49 [ERROR]: MySQL connection error (attempt 5/5): Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES) {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES)"}
+Error: Access denied for user '3zGXJnrbXLNbUa5.ahmedw_2F7bYgUw'@'156.194.251.222' (using password: YES)
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:41:24 [INFO]: Starting server...
+2026-09-24 20:41:25 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 20:41:26 [INFO]: MongoDB connected successfully
+2026-09-24 20:41:26 [ERROR]: MySQL query error: {"sql":"\n    CREATE TABLE IF NOT EXISTS users (\n      id VARCHAR(36) PRIMARY KEY,\n      username VARCHAR(50) UNIQUE NOT NULL,\n      email VARCHAR(255) UNIQUE NOT NULL,\n      password_hash VARCHAR(255) NOT NULL,\n      role ENUM('user', 'admin', 'streamer') DEFAULT 'user',\n      social_media_keys JSON,\n      is_active BOOLEAN DEFAULT TRUE,\n      last_login TIMESTAMP NULL,\n      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n      updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n      INDEX idx_username (username),\n      INDEX idx_email (email),\n      INDEX idx_role (role)\n    )\n  ","error":{"code":"ER_TABLEACCESS_DENIED_ERROR","errno":1142,"sqlState":"42000","sqlMessage":"CREATE command denied to user '3zGXJnrbXLNbUa5.root'@'%' for table 'users'","sql":"\n    CREATE TABLE IF NOT EXISTS users (\n      id VARCHAR(36) PRIMARY KEY,\n      username VARCHAR(50) UNIQUE NOT NULL,\n      email VARCHAR(255) UNIQUE NOT NULL,\n      password_hash VARCHAR(255) NOT NULL,\n      role ENUM('user', 'admin', 'streamer') DEFAULT 'user',\n      social_media_keys JSON,\n      is_active BOOLEAN DEFAULT TRUE,\n      last_login TIMESTAMP NULL,\n      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n      updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n      INDEX idx_username (username),\n      INDEX idx_email (email),\n      INDEX idx_role (role)\n    )\n  "}}
+2026-09-24 20:44:53 [INFO]: Starting server...
+2026-09-24 20:44:54 [ERROR]: MySQL connection error (attempt 1/5): Unknown database 'applive' {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'applive'"}
+Error: Unknown database 'applive'
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:44:56 [ERROR]: MySQL connection error (attempt 2/5): Unknown database 'applive' {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'applive'"}
+Error: Unknown database 'applive'
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:45:01 [ERROR]: MySQL connection error (attempt 3/5): Unknown database 'applive' {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'applive'"}
+Error: Unknown database 'applive'
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:45:07 [ERROR]: MySQL connection error (attempt 4/5): Unknown database 'applive' {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'applive'"}
+Error: Unknown database 'applive'
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:45:16 [ERROR]: MySQL connection error (attempt 5/5): Unknown database 'applive' {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'applive'"}
+Error: Unknown database 'applive'
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:45:36 [INFO]: Starting server...
+2026-09-24 20:45:36 [ERROR]: MySQL connection error (attempt 1/5): Unknown database 'applive' {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'applive'"}
+Error: Unknown database 'applive'
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:45:39 [ERROR]: MySQL connection error (attempt 2/5): Unknown database 'applive' {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'applive'"}
+Error: Unknown database 'applive'
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:45:43 [ERROR]: MySQL connection error (attempt 3/5): Unknown database 'applive' {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'applive'"}
+Error: Unknown database 'applive'
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:45:49 [ERROR]: MySQL connection error (attempt 4/5): Unknown database 'applive' {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'applive'"}
+Error: Unknown database 'applive'
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:45:58 [ERROR]: MySQL connection error (attempt 5/5): Unknown database 'applive' {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'applive'"}
+Error: Unknown database 'applive'
+    at Packet.asError (D:\App_Live\node_modules\mysql2\lib\packets\packet.js:930:17)
+    at ClientHandshake.execute (D:\App_Live\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:616:34)
+    at PacketParser.onPacket (D:\App_Live\node_modules\mysql2\lib\base\connection.js:148:12)
+    at PacketParser.executeStart (D:\App_Live\node_modules\mysql2\lib\packet_parser.js:86:16)
+    at TLSSocket.<anonymous> (D:\App_Live\node_modules\mysql2\lib\base\connection.js:501:25)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+2026-09-24 20:47:54 [INFO]: Starting server...
+2026-09-24 20:47:54 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 20:47:55 [INFO]: MongoDB connected successfully
+2026-09-24 20:47:56 [INFO]: ✅ Users table created
+2026-09-24 20:47:56 [INFO]: ✅ Streams table ready
+2026-09-24 20:47:56 [INFO]: ✅ Donations table ready
+2026-09-24 20:47:57 [INFO]: ✅ Tokens table created
+2026-09-24 20:47:57 [INFO]: Upstash Redis connected
+2026-09-24 20:48:00 [INFO]: Kafka connected successfully
+2026-09-24 20:48:01 [INFO]: Topics created successfully
+2026-09-24 20:48:01 [INFO]: Server started on port 3000
+2026-09-24 21:34:56 [INFO]: Starting server...
+2026-09-24 21:34:58 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 21:34:59 [INFO]: MongoDB connected successfully
+2026-09-24 21:34:59 [INFO]: ✅ Users table created
+2026-09-24 21:34:59 [INFO]: ✅ Streams table ready
+2026-09-24 21:35:00 [INFO]: ✅ Donations table ready
+2026-09-24 21:35:00 [INFO]: ✅ Tokens table created
+2026-09-24 21:35:00 [INFO]: Upstash Redis connected
+2026-09-24 21:35:03 [INFO]: Kafka connected successfully
+2026-09-24 21:35:04 [INFO]: Topics created successfully
+2026-09-24 21:35:04 [INFO]: Server started on port 3000
+2026-09-24 21:47:05 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE email = ?\n      LIMIT 1\n    ","params":["ahmedwalidamin648@gmail.com"],"duration":"1513ms"}
+2026-09-24 21:47:06 [INFO]: OTP saved for ahmedwalidamin648@gmail.com
+2026-09-24 21:47:09 [INFO]: Email sent to ahmedwalidamin648@gmail.com
+2026-09-24 21:47:09 [INFO]: User registered: ahmedwalidamin648@gmail.com
+2026-09-24 22:04:55 [INFO]: Starting server...
+2026-09-24 22:04:57 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 22:04:58 [INFO]: MongoDB connected successfully
+2026-09-24 22:04:58 [INFO]: ✅ Users table created
+2026-09-24 22:04:59 [INFO]: ✅ Streams table ready
+2026-09-24 22:04:59 [INFO]: ✅ Donations table ready
+2026-09-24 22:04:59 [INFO]: ✅ Tokens table created
+2026-09-24 22:05:00 [INFO]: Upstash Redis connected
+2026-09-24 22:05:02 [INFO]: Kafka connected successfully
+2026-09-24 22:05:02 [INFO]: Topics created successfully
+2026-09-24 22:05:02 [INFO]: Server started on port 3000
+2026-09-24 22:06:15 [INFO]: OTP saved for ahmedwalidamin648@gmail.com
+2026-09-24 22:06:17 [INFO]: Email sent to ahmedwalidamin648@gmail.com
+2026-09-24 22:06:17 [INFO]: User registered: ahmedwalidamin648@gmail.com
+2026-09-24 22:11:58 [INFO]: Starting server...
+2026-09-24 22:11:59 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 22:12:00 [INFO]: MongoDB connected successfully
+2026-09-24 22:12:00 [INFO]: ✅ Users table created
+2026-09-24 22:12:00 [INFO]: ✅ Streams table ready
+2026-09-24 22:12:00 [INFO]: ✅ Donations table ready
+2026-09-24 22:12:00 [INFO]: ✅ Tokens table created
+2026-09-24 22:12:01 [INFO]: Upstash Redis connected
+2026-09-24 22:12:03 [INFO]: Kafka connected successfully
+2026-09-24 22:12:03 [INFO]: Topics created successfully
+2026-09-24 22:12:03 [INFO]: Server started on port 3000
+2026-09-24 22:13:28 [INFO]: OTP saved for ahmedwalidamin648@gmail.com
+2026-09-24 22:13:32 [INFO]: Email sent to ahmedwalidamin648@gmail.com
+2026-09-24 22:13:32 [INFO]: OTP resent to ahmedwalidamin648@gmail.com
+2026-09-24 22:16:23 [INFO]: Starting server...
+2026-09-24 22:16:23 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 22:16:24 [INFO]: MongoDB connected successfully
+2026-09-24 22:16:25 [INFO]: ✅ Users table created
+2026-09-24 22:16:25 [INFO]: ✅ Streams table ready
+2026-09-24 22:16:25 [INFO]: ✅ Donations table ready
+2026-09-24 22:16:25 [INFO]: ✅ Tokens table created
+2026-09-24 22:16:26 [INFO]: Upstash Redis connected
+2026-09-24 22:16:27 [INFO]: Kafka connected successfully
+2026-09-24 22:16:28 [INFO]: Topics created successfully
+2026-09-24 22:16:28 [INFO]: Server started on port 3000
+2026-09-24 22:19:09 [INFO]: Starting server...
+2026-09-24 22:19:10 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 22:19:11 [INFO]: MongoDB connected successfully
+2026-09-24 22:19:11 [INFO]: ✅ Users table created
+2026-09-24 22:19:11 [INFO]: ✅ Streams table ready
+2026-09-24 22:19:11 [INFO]: ✅ Donations table ready
+2026-09-24 22:19:11 [INFO]: ✅ Tokens table created
+2026-09-24 22:19:12 [INFO]: Upstash Redis connected
+2026-09-24 22:19:14 [INFO]: Kafka connected successfully
+2026-09-24 22:19:14 [INFO]: Topics created successfully
+2026-09-24 22:19:14 [INFO]: Server started on port 3000
+2026-09-24 22:19:27 [INFO]: OTP saved for ahmedwalidamin648@gmail.com
+2026-09-24 22:19:29 [INFO]: Email sent to ahmedwalidamin648@gmail.com
+2026-09-24 22:19:29 [INFO]: OTP resent to ahmedwalidamin648@gmail.com
+2026-09-24 22:20:08 [INFO]: OTP deleted for ahmedwalidamin648@gmail.com
+2026-09-24 22:20:08 [INFO]: Account activated: ahmedwalidamin648@gmail.com
+2026-09-24 22:22:34 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-09-24 22:34:05 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE email = ?\n      LIMIT 1\n    ","params":["ahmedwalidamin648@gmail.com"],"duration":"2117ms"}
+2026-09-24 22:34:05 [INFO]: OTP saved for ahmedwalidamin648@gmail.com
+2026-09-24 22:34:07 [INFO]: Email sent to ahmedwalidamin648@gmail.com
+2026-09-24 22:34:07 [INFO]: Password reset requested: ahmedwalidamin648@gmail.com
+2026-09-24 22:38:15 [INFO]: Starting server...
+2026-09-24 22:38:16 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 22:38:17 [INFO]: MongoDB connected successfully
+2026-09-24 22:38:17 [INFO]: ✅ Users table created
+2026-09-24 22:38:17 [INFO]: ✅ Streams table ready
+2026-09-24 22:38:17 [INFO]: ✅ Donations table ready
+2026-09-24 22:38:17 [INFO]: ✅ Tokens table created
+2026-09-24 22:38:18 [INFO]: Upstash Redis connected
+2026-09-24 22:38:20 [INFO]: Kafka connected successfully
+2026-09-24 22:38:20 [INFO]: Topics created successfully
+2026-09-24 22:38:20 [INFO]: Server started on port 3000
+2026-09-24 22:38:44 [INFO]: OTP saved for ahmedwalidamin648@gmail.com
+2026-09-24 22:38:46 [INFO]: Email sent to ahmedwalidamin648@gmail.com
+2026-09-24 22:38:46 [INFO]: Password reset requested: ahmedwalidamin648@gmail.com
+2026-09-24 22:41:26 [INFO]: Starting server...
+2026-09-24 22:41:26 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 22:41:28 [INFO]: MongoDB connected successfully
+2026-09-24 22:41:28 [INFO]: ✅ Users table created
+2026-09-24 22:41:28 [INFO]: ✅ Streams table ready
+2026-09-24 22:41:28 [INFO]: ✅ Donations table ready
+2026-09-24 22:41:28 [INFO]: ✅ Tokens table created
+2026-09-24 22:41:29 [INFO]: Upstash Redis connected
+2026-09-24 22:41:31 [INFO]: Kafka connected successfully
+2026-09-24 22:41:31 [INFO]: Topics created successfully
+2026-09-24 22:41:31 [INFO]: Server started on port 3000
+2026-09-24 22:43:39 [INFO]: Password changed: ahmedwalidamin648@gmail.com
+2026-09-24 22:44:44 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-09-24 22:46:48 [INFO]: Password changed: ahmedwalidamin648@gmail.com
+2026-09-24 22:48:14 [INFO]: User logged out: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-09-24 23:05:34 [WARN]: MongoDB disconnected
+2026-09-24 23:15:45 [INFO]: Starting server...
+2026-09-24 23:15:47 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 23:15:49 [INFO]: MongoDB connected successfully
+2026-09-24 23:15:49 [INFO]: ✅ Users table created
+2026-09-24 23:15:50 [INFO]: ✅ Streams table ready
+2026-09-24 23:15:50 [INFO]: ✅ Donations table ready
+2026-09-24 23:15:50 [INFO]: ✅ Tokens table created
+2026-09-24 23:15:51 [INFO]: Upstash Redis connected
+2026-09-24 23:15:52 [INFO]: Kafka connected successfully
+2026-09-24 23:15:53 [INFO]: Topics created successfully
+2026-09-24 23:15:53 [INFO]: Server started on port 3000
+2026-09-24 23:22:57 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-09-24 23:26:01 [ERROR]: MySQL query error: {"sql":"SELECT 1 as test, NOW() as time, DATABASE() as database, VERSION() as version","error":{"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your TiDB version for the right syntax to use line 1 column 55 near \"database, VERSION() as version\" ","sql":"SELECT 1 as test, NOW() as time, DATABASE() as database, VERSION() as version"}}
+2026-09-24 23:27:16 [INFO]: Starting server...
+2026-09-24 23:27:16 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-09-24 23:27:17 [INFO]: MongoDB connected successfully
+2026-09-24 23:27:18 [INFO]: ✅ Users table created
+2026-09-24 23:27:18 [INFO]: ✅ Streams table ready
+2026-09-24 23:27:18 [INFO]: ✅ Donations table ready
+2026-09-24 23:27:18 [INFO]: ✅ Tokens table created
+2026-09-24 23:27:19 [INFO]: Upstash Redis connected
+2026-09-24 23:27:21 [INFO]: Kafka connected successfully
+2026-09-24 23:27:22 [INFO]: Topics created successfully
+2026-09-24 23:27:22 [INFO]: Server started on port 3000
+2026-10-02 18:06:53 [INFO]: Starting server...
+2026-10-02 18:06:53 [ERROR]: MySQL connection error (attempt 1/5): getaddrinfo ENOTFOUND gateway01.eu-central-1.prod.aws.tidbcloud.com {"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"gateway01.eu-central-1.prod.aws.tidbcloud.com","fatal":true}
+Error: getaddrinfo ENOTFOUND gateway01.eu-central-1.prod.aws.tidbcloud.com
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+2026-10-02 18:06:55 [ERROR]: MySQL connection error (attempt 2/5): getaddrinfo ENOTFOUND gateway01.eu-central-1.prod.aws.tidbcloud.com {"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"gateway01.eu-central-1.prod.aws.tidbcloud.com","fatal":true}
+Error: getaddrinfo ENOTFOUND gateway01.eu-central-1.prod.aws.tidbcloud.com
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+2026-10-02 18:06:59 [ERROR]: MySQL connection error (attempt 3/5): getaddrinfo ENOTFOUND gateway01.eu-central-1.prod.aws.tidbcloud.com {"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"gateway01.eu-central-1.prod.aws.tidbcloud.com","fatal":true}
+Error: getaddrinfo ENOTFOUND gateway01.eu-central-1.prod.aws.tidbcloud.com
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+2026-10-02 18:07:05 [ERROR]: MySQL connection error (attempt 4/5): getaddrinfo ENOTFOUND gateway01.eu-central-1.prod.aws.tidbcloud.com {"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"gateway01.eu-central-1.prod.aws.tidbcloud.com","fatal":true}
+Error: getaddrinfo ENOTFOUND gateway01.eu-central-1.prod.aws.tidbcloud.com
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+2026-10-02 18:07:13 [ERROR]: MySQL connection error (attempt 5/5): getaddrinfo ENOTFOUND gateway01.eu-central-1.prod.aws.tidbcloud.com {"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"gateway01.eu-central-1.prod.aws.tidbcloud.com","fatal":true}
+Error: getaddrinfo ENOTFOUND gateway01.eu-central-1.prod.aws.tidbcloud.com
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+2026-10-02 20:31:56 [INFO]: Starting server...
+2026-10-02 20:31:59 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-02 20:32:00 [INFO]: MongoDB connected successfully
+2026-10-02 20:32:00 [INFO]: ✅ Users table created
+2026-10-02 20:32:01 [INFO]: ✅ Streams table ready
+2026-10-02 20:32:01 [INFO]: ✅ Donations table ready
+2026-10-02 20:32:01 [INFO]: ✅ Tokens table created
+2026-10-02 20:32:02 [INFO]: Upstash Redis connected
+2026-10-02 20:33:18 [ERROR]: Kafka connection error: Connection error: getaddrinfo ENOTFOUND kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com {"name":"KafkaJSNumberOfRetriesExceeded","retriable":false,"retryCount":8,"retryTime":30000,"cause":{"name":"KafkaJSConnectionError","retriable":true,"broker":"kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com:25764","code":"ENOTFOUND"}}
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: getaddrinfo ENOTFOUND kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com
+    at TLSSocket.onError (D:\App_Live\node_modules\kafkajs\src\network\connection.js:210:23)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-10-02 20:33:18 [WARN]: Kafka connection failed — continuing without Kafka {"error":"Connection error: getaddrinfo ENOTFOUND kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com"}
+2026-10-02 20:33:18 [INFO]: WebSocket server running on /ws
+2026-10-02 20:33:18 [INFO]: RTMP Server running on port 1935
+2026-10-02 20:33:18 [INFO]: Server started on port 3000
+2026-10-02 20:46:47 [INFO]: Starting server...
+2026-10-02 20:46:48 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-02 20:46:49 [INFO]: MongoDB connected successfully
+2026-10-02 20:46:49 [INFO]: ✅ Users table created
+2026-10-02 20:46:50 [INFO]: ✅ Streams table ready
+2026-10-02 20:46:50 [INFO]: ✅ Donations table ready
+2026-10-02 20:46:50 [INFO]: ✅ Tokens table created
+2026-10-02 20:46:50 [INFO]: Upstash Redis connected
+2026-10-02 20:48:04 [ERROR]: Kafka connection error: Connection error: getaddrinfo ENOTFOUND kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com {"name":"KafkaJSNumberOfRetriesExceeded","retriable":false,"retryCount":8,"retryTime":30000,"cause":{"name":"KafkaJSConnectionError","retriable":true,"broker":"kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com:25764","code":"ENOTFOUND"}}
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: getaddrinfo ENOTFOUND kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com
+    at TLSSocket.onError (D:\App_Live\node_modules\kafkajs\src\network\connection.js:210:23)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-10-02 20:48:04 [WARN]: Kafka connection failed — continuing without Kafka {"error":"Connection error: getaddrinfo ENOTFOUND kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com"}
+2026-10-02 20:48:04 [INFO]: WebSocket server running on /ws
+2026-10-02 20:48:04 [INFO]: RTMP Server running on port 1935
+2026-10-02 20:48:04 [INFO]: Server started on port 3000
+2026-10-02 21:07:28 [WARN]: MongoDB disconnected
+2026-10-03 17:21:47 [INFO]: Starting server...
+2026-10-03 17:21:50 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-03 17:21:51 [INFO]: MongoDB connected successfully
+2026-10-03 17:21:51 [INFO]: ✅ Users table created
+2026-10-03 17:21:51 [INFO]: ✅ Streams table ready
+2026-10-03 17:21:51 [INFO]: ✅ Donations table ready
+2026-10-03 17:21:51 [INFO]: ✅ Tokens table created
+2026-10-03 17:21:52 [INFO]: Upstash Redis connected
+2026-10-03 17:23:07 [ERROR]: Kafka connection error: Connection error: getaddrinfo ENOTFOUND kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com {"name":"KafkaJSNumberOfRetriesExceeded","retriable":false,"retryCount":8,"retryTime":30000,"cause":{"name":"KafkaJSConnectionError","retriable":true,"broker":"kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com:25764","code":"ENOTFOUND"}}
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: getaddrinfo ENOTFOUND kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com
+    at TLSSocket.onError (D:\App_Live\node_modules\kafkajs\src\network\connection.js:210:23)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-10-03 17:23:07 [WARN]: Kafka connection failed — continuing without Kafka {"error":"Connection error: getaddrinfo ENOTFOUND kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com"}
+2026-10-03 17:23:07 [INFO]: WebSocket server running on /ws
+2026-10-03 17:23:07 [INFO]: RTMP Server running on port 1935
+2026-10-03 17:23:07 [INFO]: Server started on port 3000
+2026-10-03 17:31:47 [INFO]: Starting server...
+2026-10-03 17:31:49 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-03 17:31:50 [INFO]: MongoDB connected successfully
+2026-10-03 17:31:51 [INFO]: ✅ Users table created
+2026-10-03 17:31:51 [INFO]: ✅ Streams table ready
+2026-10-03 17:31:51 [INFO]: ✅ Donations table ready
+2026-10-03 17:31:52 [INFO]: ✅ Tokens table created
+2026-10-03 17:31:53 [INFO]: Upstash Redis connected
+2026-10-03 17:32:44 [ERROR]: Kafka connection error: Connection error: getaddrinfo ENOTFOUND kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com {"name":"KafkaJSNumberOfRetriesExceeded","retriable":false,"retryCount":8,"retryTime":30000,"cause":{"name":"KafkaJSConnectionError","retriable":true,"broker":"kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com:25764","code":"ENOTFOUND"}}
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: getaddrinfo ENOTFOUND kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com
+    at TLSSocket.onError (D:\App_Live\node_modules\kafkajs\src\network\connection.js:210:23)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-10-03 17:32:44 [WARN]: Kafka connection failed — continuing without Kafka {"error":"Connection error: getaddrinfo ENOTFOUND kafka-3abe2a9d-ahmedwalidamin123-6b6b.b.aivencloud.com"}
+2026-10-03 17:32:44 [INFO]: WebSocket server running on /ws
+2026-10-03 17:32:44 [INFO]: RTMP Server running on port 1935
+2026-10-03 17:32:44 [INFO]: Server started on port 3000
+2026-10-03 17:46:08 [INFO]: Starting server...
+2026-10-03 17:46:10 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-03 17:46:11 [INFO]: MongoDB connected successfully
+2026-10-03 17:46:12 [INFO]: ✅ Users table created
+2026-10-03 17:46:12 [INFO]: ✅ Streams table ready
+2026-10-03 17:46:12 [INFO]: ✅ Donations table ready
+2026-10-03 17:46:12 [INFO]: ✅ Tokens table created
+2026-10-03 17:46:13 [INFO]: Upstash Redis connected
+2026-10-03 17:46:17 [INFO]: Kafka connected successfully
+2026-10-03 17:46:18 [INFO]: Topics created successfully
+2026-10-03 17:46:36 [INFO]: WebSocket server running on /ws
+2026-10-03 17:46:36 [INFO]: RTMP Server running on port 1935
+2026-10-03 17:46:36 [INFO]: Server started on port 3000
+2026-10-03 17:56:17 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE email = ?\n      LIMIT 1\n    ","params":["ahmedwalidamin648@gmail.com"],"duration":"1344ms"}
+2026-10-03 17:56:18 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-03 18:02:12 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-03 18:02:33 [INFO]: User profile updated: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-03 18:14:11 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE email = ?\n      LIMIT 1\n    ","params":["ahmedwalidamin648@gmail.com"],"duration":"4034ms"}
+2026-10-03 18:14:12 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-03 18:14:27 [INFO]: Social keys updated: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-03 18:15:57 [ERROR]: Get social keys error: "[object Object]" is not valid JSON
+SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at findByIdWithKeys (D:\App_Live\src\repositories\userRepository.ts:45:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Module.getUserSocialKeys (D:\App_Live\src\services\userService.ts:58:16)
+    at async getSocialKeys (D:\App_Live\src\controllers\userController.ts:40:20)
+2026-10-03 18:18:13 [INFO]: Starting server...
+2026-10-03 18:18:14 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-03 18:18:15 [INFO]: MongoDB connected successfully
+2026-10-03 18:18:15 [INFO]: ✅ Users table created
+2026-10-03 18:18:16 [INFO]: ✅ Streams table ready
+2026-10-03 18:18:16 [INFO]: ✅ Donations table ready
+2026-10-03 18:18:16 [INFO]: ✅ Tokens table created
+2026-10-03 18:18:17 [INFO]: Upstash Redis connected
+2026-10-03 18:18:19 [INFO]: Kafka connected successfully
+2026-10-03 18:18:19 [INFO]: Topics created successfully
+2026-10-03 18:18:39 [INFO]: WebSocket server running on /ws
+2026-10-03 18:18:39 [INFO]: RTMP Server running on port 1935
+2026-10-03 18:18:39 [INFO]: Server started on port 3000
+2026-10-03 18:18:56 [ERROR]: Get social keys error: "[object Object]" is not valid JSON
+SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at findByIdWithKeys (D:\App_Live\src\repositories\userRepository.ts:45:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Module.getUserSocialKeys (D:\App_Live\src\services\userService.ts:58:16)
+    at async getSocialKeys (D:\App_Live\src\controllers\userController.ts:40:20)
+2026-10-03 18:26:02 [INFO]: Starting server...
+2026-10-03 18:26:04 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-03 18:26:05 [INFO]: MongoDB connected successfully
+2026-10-03 18:26:05 [INFO]: ✅ Users table created
+2026-10-03 18:26:05 [INFO]: ✅ Streams table ready
+2026-10-03 18:26:05 [INFO]: ✅ Donations table ready
+2026-10-03 18:26:05 [INFO]: ✅ Tokens table created
+2026-10-03 18:26:06 [INFO]: Upstash Redis connected
+2026-10-03 18:26:08 [INFO]: Kafka connected successfully
+2026-10-03 18:26:09 [INFO]: Topics created successfully
+2026-10-03 18:26:37 [INFO]: WebSocket server running on /ws
+2026-10-03 18:26:37 [INFO]: RTMP Server running on port 1935
+2026-10-03 18:26:37 [INFO]: Server started on port 3000
+2026-10-03 19:07:08 [WARN]: MongoDB disconnected
+2026-10-03 20:22:10 [WARN]: MongoDB disconnected
+2026-10-03 20:27:44 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE email = ?\n      LIMIT 1\n    ","params":["ahmedwalidamin123@gmail.com"],"duration":"1563ms"}
+2026-10-03 20:27:46 [INFO]: OTP saved for ahmedwalidamin123@gmail.com
+2026-10-03 20:27:48 [INFO]: Email sent to ahmedwalidamin123@gmail.com
+2026-10-03 20:27:48 [INFO]: User registered: ahmedwalidamin123@gmail.com
+2026-10-03 20:28:56 [INFO]: OTP deleted for ahmedwalidamin123@gmail.com
+2026-10-03 20:28:57 [INFO]: Account activated: ahmedwalidamin123@gmail.com
+2026-10-03 20:30:15 [INFO]: User account deleted: 1bf34da2-bb14-4366-bea8-2f7c09494678
+2026-10-03 20:36:39 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE email = ?\n      LIMIT 1\n    ","params":["ahmedwalidamin648@gmail.com"],"duration":"4124ms"}
+2026-10-03 20:36:40 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-03 20:37:47 [ERROR]: Start stream error: Cannot destructure property 'title' of 'data' as it is undefined.
+TypeError: Cannot destructure property 'title' of 'data' as it is undefined.
+    at Module.startUserStream (D:\App_Live\src\services\streamService.ts:24:11)
+    at startStream (D:\App_Live\src\controllers\streamController.ts:9:40)
+    at Layer.handleRequest (D:\App_Live\node_modules\router\lib\layer.js:152:17)
+    at next (D:\App_Live\node_modules\router\lib\route.js:157:13)
+    at file:///D:/App_Live/node_modules/express-rate-limit/dist/index.mjs:1010:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/App_Live/node_modules/express-rate-limit/dist/index.mjs:830:5
+2026-10-03 20:38:20 [INFO]: Stream started by user: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-03 20:38:20 [ERROR]: Stream stream_1791049100547 error: Cannot find ffmpeg
+Error: Cannot find ffmpeg
+    at D:\App_Live\node_modules\fluent-ffmpeg\lib\processor.js:134:22
+    at D:\App_Live\node_modules\fluent-ffmpeg\lib\capabilities.js:123:9
+    at D:\App_Live\node_modules\fluent-ffmpeg\lib\capabilities.js:116:11
+    at D:\App_Live\node_modules\fluent-ffmpeg\lib\utils.js:223:16
+    at F (D:\App_Live\node_modules\which\which.js:68:16)
+    at E (D:\App_Live\node_modules\which\which.js:80:29)
+    at D:\App_Live\node_modules\which\which.js:89:16
+    at D:\App_Live\node_modules\isexe\index.js:42:5
+    at D:\App_Live\node_modules\isexe\windows.js:36:5
+    at FSReqCallback.oncomplete (node:fs:197:21)
+2026-10-03 20:38:22 [ERROR]: MySQL query error: {"sql":"\n      SELECT *\n      FROM streams\n      WHERE stream_key = ?\n      LIMIT 1\n    ","params":[null],"error":{}}
+2026-10-03 20:38:22 [ERROR]: Error processing stream event: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at query (D:\App_Live\src\config\database\mysql.ts:199:23)
+    at Object.findOne (D:\App_Live\src\config\database\mysql.ts:409:13)
+    at findByStreamKey (D:\App_Live\src\repositories\streamRepository.ts:31:13)
+    at Runner.eachMessage (D:\App_Live\src\events\consumers\streamConsumer.ts:22:32)
+    at Runner.processEachMessage (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:231:20)
+    at onBatch (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:447:20)
+    at Runner.handleBatch (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:461:11)
+    at handler (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:58:30)
+    at D:\App_Live\node_modules\kafkajs\src\consumer\worker.js:29:15
+    at Object.run (D:\App_Live\node_modules\kafkajs\src\utils\sharedPromiseTo.js:14:17)
+2026-10-03 20:43:53 [INFO]: Stream stopped: 3e02a544-e7a9-448d-b90f-508bdbc08356
+2026-10-03 20:54:58 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-03 21:06:06 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE email = ?\n      LIMIT 1\n    ","params":["ahmedwalidamin648@gmail.com"],"duration":"1718ms"}
+2026-10-03 21:06:07 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-03 21:06:34 [INFO]: Stream started by user: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-03 21:06:34 [ERROR]: Stream stream_1791050794740 error: Cannot find ffmpeg
+Error: Cannot find ffmpeg
+    at D:\App_Live\node_modules\fluent-ffmpeg\lib\processor.js:134:22
+    at proto._getFfmpegPath (D:\App_Live\node_modules\fluent-ffmpeg\lib\capabilities.js:90:14)
+    at proto._spawnFfmpeg (D:\App_Live\node_modules\fluent-ffmpeg\lib\processor.js:130:10)
+    at proto.availableFormats.proto.getAvailableFormats (D:\App_Live\node_modules\fluent-ffmpeg\lib\capabilities.js:517:10)
+    at D:\App_Live\node_modules\fluent-ffmpeg\lib\capabilities.js:568:14
+    at fn (D:\App_Live\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (D:\App_Live\node_modules\async\lib\async.js:498:34)
+    at process.processImmediate (node:internal/timers:485:21)
+2026-10-03 21:06:35 [ERROR]: MySQL query error: {"sql":"\n      SELECT *\n      FROM streams\n      WHERE stream_key = ?\n      LIMIT 1\n    ","params":[null],"error":{}}
+2026-10-03 21:06:35 [ERROR]: Error processing stream event: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at query (D:\App_Live\src\config\database\mysql.ts:199:23)
+    at Object.findOne (D:\App_Live\src\config\database\mysql.ts:409:13)
+    at findByStreamKey (D:\App_Live\src\repositories\streamRepository.ts:31:13)
+    at Runner.eachMessage (D:\App_Live\src\events\consumers\streamConsumer.ts:22:32)
+    at Runner.processEachMessage (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:231:20)
+    at onBatch (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:447:20)
+    at Runner.handleBatch (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:461:11)
+    at handler (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:58:30)
+    at D:\App_Live\node_modules\kafkajs\src\consumer\worker.js:29:15
+    at Object.run (D:\App_Live\node_modules\kafkajs\src\utils\sharedPromiseTo.js:14:17)
+2026-10-03 21:21:05 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE id = ?\n      LIMIT 1\n    ","params":["4e168ac7-af94-4d0d-9bf6-7576bfe01550"],"duration":"2989ms"}
+2026-10-03 21:21:06 [INFO]: Donation created: $50 by 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-03 21:21:06 [ERROR]: MySQL query error: {"sql":"\n      INSERT INTO donations\n      (id, stream_id, user_id, amount, currency, message, platform)\n      VALUES (?, ?, ?, ?, ?, ?, ?)\n    ","params":["e309e97d-0719-4b39-b1c7-eb77dffac62c",null,null,"50.00","USD","Keep going!","youtube"],"error":{}}
+2026-10-03 21:21:06 [ERROR]: Error processing donation: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at query (D:\App_Live\src\config\database\mysql.ts:199:23)
+    at Object.create (D:\App_Live\src\config\database\mysql.ts:498:13)
+    at createDonation (D:\App_Live\src\repositories\donationRepository.ts:15:12)
+    at Runner.eachMessage (D:\App_Live\src\events\consumers\donationConsumer.ts:18:15)
+    at Runner.processEachMessage (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:231:20)
+    at onBatch (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:447:20)
+    at Runner.handleBatch (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:461:11)
+    at handler (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:58:30)
+    at D:\App_Live\node_modules\kafkajs\src\consumer\worker.js:29:15
+    at Object.run (D:\App_Live\node_modules\kafkajs\src\utils\sharedPromiseTo.js:14:17)
+2026-10-03 21:23:59 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-03 21:33:03 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE email = ?\n      LIMIT 1\n    ","params":["ahmedwalidamin648@gmail.com"],"duration":"1547ms"}
+2026-10-03 21:33:03 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-03 23:25:36 [WARN]: MongoDB disconnected
+2026-10-04 00:01:19 [INFO]: Starting server...
+2026-10-04 00:01:24 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-04 00:01:26 [INFO]: MongoDB connected successfully
+2026-10-04 00:01:26 [INFO]: ✅ Users table created
+2026-10-04 00:01:26 [INFO]: ✅ Streams table ready
+2026-10-04 00:01:27 [INFO]: ✅ Donations table ready
+2026-10-04 00:01:27 [INFO]: ✅ Tokens table created
+2026-10-04 00:01:29 [INFO]: Upstash Redis connected
+2026-10-04 00:01:32 [INFO]: Kafka connected successfully
+2026-10-04 00:01:34 [INFO]: Topics created successfully
+2026-10-04 00:01:51 [INFO]: WebSocket server running on /ws
+2026-10-05 17:47:45 [INFO]: Starting server...
+2026-10-05 17:47:48 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-05 17:47:49 [INFO]: MongoDB connected successfully
+2026-10-05 17:47:50 [INFO]: ✅ Users table created
+2026-10-05 17:47:50 [INFO]: ✅ Streams table ready
+2026-10-05 17:47:50 [INFO]: ✅ Donations table ready
+2026-10-05 17:47:50 [INFO]: ✅ Tokens table created
+2026-10-05 17:47:51 [INFO]: Upstash Redis connected
+2026-10-05 17:47:53 [INFO]: Kafka connected successfully
+2026-10-05 17:47:54 [INFO]: Topics created successfully
+2026-10-05 17:48:13 [INFO]: WebSocket server running on /ws
+2026-10-05 17:48:13 [INFO]: RTMP Server running on port 1935
+2026-10-05 17:48:13 [INFO]: Server started on port 3000
+2026-10-05 18:37:03 [WARN]: MongoDB disconnected
+2026-10-05 18:37:19 [WARN]: MongoDB disconnected
+2026-10-05 20:59:32 [INFO]: Starting server...
+2026-10-05 20:59:43 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-05 20:59:44 [INFO]: MongoDB connected successfully
+2026-10-05 20:59:44 [INFO]: ✅ Users table created
+2026-10-05 20:59:44 [INFO]: ✅ Streams table ready
+2026-10-05 20:59:45 [INFO]: ✅ Donations table ready
+2026-10-05 20:59:45 [INFO]: ✅ Tokens table created
+2026-10-05 20:59:46 [INFO]: Upstash Redis connected
+2026-10-05 20:59:47 [INFO]: Kafka connected successfully
+2026-10-05 20:59:48 [INFO]: Topics created successfully
+2026-10-05 21:00:07 [INFO]: WebSocket server running on /ws
+2026-10-05 21:00:07 [INFO]: RTMP Server running on port 1935
+2026-10-05 21:00:07 [INFO]: Server started on port 3000
+2026-10-05 21:02:35 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 01:39:40 [INFO]: Starting server...
+2026-10-06 01:39:42 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-06 01:39:44 [INFO]: MongoDB connected successfully
+2026-10-06 01:39:44 [INFO]: ✅ Users table created
+2026-10-06 01:39:44 [INFO]: ✅ Streams table ready
+2026-10-06 01:39:44 [INFO]: ✅ Donations table ready
+2026-10-06 01:39:44 [INFO]: ✅ Tokens table created
+2026-10-06 01:39:45 [INFO]: Upstash Redis connected
+2026-10-06 01:39:47 [INFO]: Kafka connected successfully
+2026-10-06 01:39:48 [INFO]: Topics created successfully
+2026-10-06 01:40:10 [INFO]: WebSocket server running on /ws
+2026-10-06 01:40:10 [INFO]: RTMP Server running on port 1935
+2026-10-06 01:40:10 [INFO]: Server started on port 3000
+2026-10-06 02:22:40 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE email = ?\n      LIMIT 1\n    ","params":["ahmedwalidamin648@gmail.com"],"duration":"1491ms"}
+2026-10-06 02:24:55 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 02:25:36 [INFO]: WebSocket client connected: ws_1791242736933_pf0k1g6
+2026-10-06 02:25:36 [INFO]: WebSocket client disconnected: ws_1791242736933_pf0k1g6
+2026-10-06 02:25:36 [INFO]: WebSocket client connected: ws_1791242736972_jlmt7a2
+2026-10-06 02:25:37 [INFO]: WebSocket authenticated: ws_1791242736972_jlmt7a2
+2026-10-06 02:25:56 [INFO]: WebSocket client disconnected: ws_1791242736972_jlmt7a2
+2026-10-06 02:26:44 [INFO]: WebSocket client connected: ws_1791242804013_qb0hdon
+2026-10-06 02:26:44 [INFO]: WebSocket client disconnected: ws_1791242804013_qb0hdon
+2026-10-06 02:26:44 [INFO]: WebSocket client connected: ws_1791242804029_as9btrl
+2026-10-06 02:26:44 [INFO]: WebSocket authenticated: ws_1791242804029_as9btrl
+2026-10-06 02:26:44 [INFO]: WebSocket client disconnected: ws_1791242804029_as9btrl
+2026-10-06 02:26:57 [INFO]: WebSocket client connected: ws_1791242817130_k6su2v3
+2026-10-06 02:26:57 [INFO]: WebSocket client disconnected: ws_1791242817130_k6su2v3
+2026-10-06 02:26:57 [INFO]: WebSocket client connected: ws_1791242817151_u8s5pwm
+2026-10-06 02:26:57 [INFO]: WebSocket authenticated: ws_1791242817151_u8s5pwm
+2026-10-06 02:27:19 [INFO]: Stream started by user: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 02:27:19 [ERROR]: Stream f64153ed-b6b0-406e-b550-45b4efef8368 error: Cannot find ffmpeg
+Error: Cannot find ffmpeg
+    at D:\App_Live\node_modules\fluent-ffmpeg\lib\processor.js:134:22
+    at D:\App_Live\node_modules\fluent-ffmpeg\lib\capabilities.js:123:9
+    at D:\App_Live\node_modules\fluent-ffmpeg\lib\capabilities.js:116:11
+    at D:\App_Live\node_modules\fluent-ffmpeg\lib\utils.js:223:16
+    at F (D:\App_Live\node_modules\which\which.js:68:16)
+    at E (D:\App_Live\node_modules\which\which.js:80:29)
+    at D:\App_Live\node_modules\which\which.js:89:16
+    at D:\App_Live\node_modules\isexe\index.js:42:5
+    at D:\App_Live\node_modules\isexe\windows.js:36:5
+    at FSReqCallback.oncomplete (node:fs:197:21)
+2026-10-06 02:27:20 [ERROR]: MySQL query error: {"sql":"\n      SELECT *\n      FROM streams\n      WHERE stream_key = ?\n      LIMIT 1\n    ","params":[null],"error":{}}
+2026-10-06 02:27:20 [ERROR]: Error processing stream event: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at query (D:\App_Live\src\config\database\mysql.ts:199:23)
+    at Object.findOne (D:\App_Live\src\config\database\mysql.ts:409:13)
+    at findByStreamKey (D:\App_Live\src\repositories\streamRepository.ts:32:13)
+    at Runner.eachMessage (D:\App_Live\src\events\consumers\streamConsumer.ts:22:32)
+    at Runner.processEachMessage (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:231:20)
+    at onBatch (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:447:20)
+    at Runner.handleBatch (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:461:11)
+    at handler (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:58:30)
+    at D:\App_Live\node_modules\kafkajs\src\consumer\worker.js:29:15
+    at Object.run (D:\App_Live\node_modules\kafkajs\src\utils\sharedPromiseTo.js:14:17)
+2026-10-06 02:27:50 [INFO]: Social listeners stopped: f64153ed-b6b0-406e-b550-45b4efef8368
+2026-10-06 02:27:50 [INFO]: Stream stopped: f64153ed-b6b0-406e-b550-45b4efef8368
+2026-10-06 02:30:10 [INFO]: Stream started by user: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 02:30:10 [ERROR]: Stream 46ceb563-571e-4050-b18e-6f08c923806b error: Cannot find ffmpeg
+Error: Cannot find ffmpeg
+    at D:\App_Live\node_modules\fluent-ffmpeg\lib\processor.js:134:22
+    at proto._getFfmpegPath (D:\App_Live\node_modules\fluent-ffmpeg\lib\capabilities.js:90:14)
+    at proto._spawnFfmpeg (D:\App_Live\node_modules\fluent-ffmpeg\lib\processor.js:130:10)
+    at proto.availableFormats.proto.getAvailableFormats (D:\App_Live\node_modules\fluent-ffmpeg\lib\capabilities.js:517:10)
+    at D:\App_Live\node_modules\fluent-ffmpeg\lib\capabilities.js:568:14
+    at fn (D:\App_Live\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (D:\App_Live\node_modules\async\lib\async.js:498:34)
+    at process.processImmediate (node:internal/timers:485:21)
+2026-10-06 02:30:10 [ERROR]: MySQL query error: {"sql":"\n      SELECT *\n      FROM streams\n      WHERE stream_key = ?\n      LIMIT 1\n    ","params":[null],"error":{}}
+2026-10-06 02:30:10 [ERROR]: Error processing stream event: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at query (D:\App_Live\src\config\database\mysql.ts:199:23)
+    at Object.findOne (D:\App_Live\src\config\database\mysql.ts:409:13)
+    at findByStreamKey (D:\App_Live\src\repositories\streamRepository.ts:32:13)
+    at Runner.eachMessage (D:\App_Live\src\events\consumers\streamConsumer.ts:22:32)
+    at Runner.processEachMessage (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:231:20)
+    at onBatch (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:447:20)
+    at Runner.handleBatch (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:461:11)
+    at handler (D:\App_Live\node_modules\kafkajs\src\consumer\runner.js:58:30)
+    at D:\App_Live\node_modules\kafkajs\src\consumer\worker.js:29:15
+    at Object.run (D:\App_Live\node_modules\kafkajs\src\utils\sharedPromiseTo.js:14:17)
+2026-10-06 02:30:16 [INFO]: Social listeners stopped: 46ceb563-571e-4050-b18e-6f08c923806b
+2026-10-06 02:30:16 [INFO]: Stream stopped: 46ceb563-571e-4050-b18e-6f08c923806b
+2026-10-06 02:30:22 [INFO]: WebSocket client disconnected: ws_1791242817151_u8s5pwm
+2026-10-06 02:30:30 [INFO]: WebSocket client connected: ws_1791243030487_buug3op
+2026-10-06 02:30:30 [INFO]: WebSocket authenticated: ws_1791243030487_buug3op
+2026-10-06 02:30:31 [INFO]: WebSocket client disconnected: ws_1791243030487_buug3op
+2026-10-06 02:30:46 [INFO]: WebSocket client connected: ws_1791243046242_ggix2ku
+2026-10-06 02:30:46 [INFO]: WebSocket authenticated: ws_1791243046242_ggix2ku
+2026-10-06 02:30:52 [INFO]: WebSocket client disconnected: ws_1791243046242_ggix2ku
+2026-10-06 02:30:58 [INFO]: WebSocket client connected: ws_1791243058756_51jhysn
+2026-10-06 02:30:58 [INFO]: WebSocket client disconnected: ws_1791243058756_51jhysn
+2026-10-06 02:30:58 [INFO]: WebSocket client connected: ws_1791243058777_ag805no
+2026-10-06 02:30:58 [INFO]: WebSocket authenticated: ws_1791243058777_ag805no
+2026-10-06 02:30:59 [INFO]: WebSocket client disconnected: ws_1791243058777_ag805no
+2026-10-06 02:31:05 [INFO]: WebSocket client connected: ws_1791243065984_aupyk1k
+2026-10-06 02:31:05 [INFO]: WebSocket client disconnected: ws_1791243065984_aupyk1k
+2026-10-06 02:31:06 [INFO]: WebSocket client connected: ws_1791243066001_asrkxgu
+2026-10-06 02:31:06 [INFO]: WebSocket authenticated: ws_1791243066001_asrkxgu
+2026-10-06 02:31:10 [INFO]: User logged out: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 02:31:10 [INFO]: WebSocket client disconnected: ws_1791243066001_asrkxgu
+2026-10-06 02:31:19 [INFO]: OTP saved for ahmedwalidamin648@gmail.com
+2026-10-06 02:31:21 [INFO]: Email sent to ahmedwalidamin648@gmail.com
+2026-10-06 02:31:22 [INFO]: Password reset requested: ahmedwalidamin648@gmail.com
+2026-10-06 02:32:01 [INFO]: Password changed: ahmedwalidamin648@gmail.com
+2026-10-06 02:32:10 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 02:32:30 [INFO]: User profile updated: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 02:32:39 [INFO]: User profile updated: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 19:12:49 [INFO]: Starting server...
+2026-10-06 19:12:51 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-06 19:12:53 [INFO]: MongoDB connected successfully
+2026-10-06 19:12:53 [INFO]: ✅ Users table created
+2026-10-06 19:12:53 [INFO]: ✅ Streams table ready
+2026-10-06 19:12:54 [INFO]: ✅ Donations table ready
+2026-10-06 19:12:54 [INFO]: ✅ Tokens table created
+2026-10-06 19:12:54 [INFO]: Upstash Redis connected
+2026-10-06 19:12:56 [INFO]: Kafka connected successfully
+2026-10-06 19:12:57 [INFO]: Topics created successfully
+2026-10-06 19:13:17 [INFO]: WebSocket server running on /ws
+2026-10-06 19:13:17 [INFO]: RTMP Server running on port 1935
+2026-10-06 19:13:17 [INFO]: Server started on port 3000
+2026-10-06 20:07:54 [WARN]: MongoDB disconnected
+2026-10-06 20:08:40 [WARN]: MongoDB disconnected
+2026-10-06 20:33:15 [INFO]: Starting server...
+2026-10-06 20:33:17 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-06 20:33:18 [INFO]: MongoDB connected successfully
+2026-10-06 20:33:18 [INFO]: ✅ Users table created
+2026-10-06 20:33:19 [INFO]: ✅ Streams table ready
+2026-10-06 20:33:19 [INFO]: ✅ Donations table ready
+2026-10-06 20:33:19 [INFO]: ✅ Tokens table created
+2026-10-06 20:33:20 [INFO]: Upstash Redis connected
+2026-10-06 20:33:22 [INFO]: Kafka connected successfully
+2026-10-06 20:33:23 [INFO]: Topics created successfully
+2026-10-06 20:33:43 [INFO]: WebSocket server running on /ws
+2026-10-06 20:33:43 [INFO]: RTMP Server running on port 1935
+2026-10-06 20:33:43 [INFO]: Server started on port 3000
+2026-10-06 20:36:58 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 20:37:51 [INFO]: WebSocket client connected: ws_1791308271746_nhxg5j4
+2026-10-06 20:37:51 [INFO]: WebSocket authenticated: ws_1791308271746_nhxg5j4
+2026-10-06 20:38:22 [INFO]: WebSocket client disconnected: ws_1791308271746_nhxg5j4
+2026-10-06 21:17:23 [WARN]: MongoDB disconnected
+2026-10-06 21:17:37 [WARN]: MongoDB disconnected
+2026-10-06 21:28:59 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE email = ?\n      LIMIT 1\n    ","params":["ahmedwalidamin648@gmail.com"],"duration":"1791ms"}
+2026-10-06 21:29:00 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 21:31:40 [INFO]: User logged out: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 21:34:18 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 21:35:16 [INFO]: WebSocket client connected: ws_1791311716549_1ju51f5
+2026-10-06 21:35:16 [INFO]: WebSocket authenticated: ws_1791311716549_1ju51f5
+2026-10-06 21:39:53 [INFO]: WebSocket client disconnected: ws_1791311716549_1ju51f5
+2026-10-06 21:39:53 [INFO]: WebSocket client connected: ws_1791311993368_d4v73bk
+2026-10-06 21:39:53 [INFO]: WebSocket client connected: ws_1791311993389_q5ibb6u
+2026-10-06 21:39:53 [INFO]: WebSocket client disconnected: ws_1791311993368_d4v73bk
+2026-10-06 21:39:53 [INFO]: WebSocket authenticated: ws_1791311993389_q5ibb6u
+2026-10-06 21:48:38 [INFO]: WebSocket client disconnected: ws_1791311993389_q5ibb6u
+2026-10-06 21:48:42 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE id = ?\n      LIMIT 1\n    ","params":["4e168ac7-af94-4d0d-9bf6-7576bfe01550"],"duration":"1468ms"}
+2026-10-06 21:48:42 [INFO]: WebSocket client connected: ws_1791312522966_0bttbvl
+2026-10-06 21:48:42 [INFO]: WebSocket client disconnected: ws_1791312522966_0bttbvl
+2026-10-06 21:48:42 [INFO]: WebSocket client connected: ws_1791312522981_yllx8jd
+2026-10-06 21:48:42 [INFO]: WebSocket authenticated: ws_1791312522981_yllx8jd
+2026-10-06 21:48:53 [INFO]: WebSocket client disconnected: ws_1791312522981_yllx8jd
+2026-10-06 21:48:58 [INFO]: User logged out: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 21:55:22 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE email = ?\n      LIMIT 1\n    ","params":["ahmedwalidamin648@gmail.com"],"duration":"3350ms"}
+2026-10-06 21:55:23 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 21:55:23 [INFO]: WebSocket client connected: ws_1791312923587_hzqxef6
+2026-10-06 21:55:23 [INFO]: WebSocket client disconnected: ws_1791312923587_hzqxef6
+2026-10-06 21:55:23 [INFO]: WebSocket client connected: ws_1791312923608_xvguh39
+2026-10-06 21:55:23 [INFO]: WebSocket authenticated: ws_1791312923608_xvguh39
+2026-10-06 21:55:28 [INFO]: WebSocket client disconnected: ws_1791312923608_xvguh39
+2026-10-06 21:56:45 [INFO]: User profile updated: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 22:06:22 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE id = ?\n      LIMIT 1\n    ","params":["4e168ac7-af94-4d0d-9bf6-7576bfe01550"],"duration":"1500ms"}
+2026-10-06 22:12:32 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 22:13:18 [INFO]: User profile updated: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 22:21:30 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE id = ?\n      LIMIT 1\n    ","params":["4e168ac7-af94-4d0d-9bf6-7576bfe01550"],"duration":"1638ms"}
+2026-10-06 22:24:01 [INFO]: OTP saved for ahmedwalidamin648@gmail.com
+2026-10-06 22:24:04 [INFO]: Email sent to ahmedwalidamin648@gmail.com
+2026-10-06 22:24:04 [INFO]: Password reset requested: ahmedwalidamin648@gmail.com
+2026-10-06 22:24:37 [INFO]: Password changed: ahmedwalidamin648@gmail.com
+2026-10-06 22:24:37 [INFO]: User logged out: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 22:24:53 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 22:25:24 [INFO]: Password changed: ahmedwalidamin648@gmail.com
+2026-10-06 22:25:24 [INFO]: User logged out: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 22:25:34 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 22:25:47 [INFO]: OTP saved for ahmedwalidamin648@gmail.com
+2026-10-06 22:25:49 [INFO]: Email sent to ahmedwalidamin648@gmail.com
+2026-10-06 22:25:49 [INFO]: Password reset requested: ahmedwalidamin648@gmail.com
+2026-10-06 22:26:20 [INFO]: Password changed: ahmedwalidamin648@gmail.com
+2026-10-06 22:26:20 [INFO]: User logged out: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 22:26:33 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 22:32:07 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE id = ?\n      LIMIT 1\n    ","params":["4e168ac7-af94-4d0d-9bf6-7576bfe01550"],"duration":"1935ms"}
+2026-10-06 22:32:07 [INFO]: User profile updated: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 22:36:14 [INFO]: User profile updated: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 22:36:30 [INFO]: User logged out: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 22:36:37 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 22:50:54 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE id = ?\n      LIMIT 1\n    ","params":["4e168ac7-af94-4d0d-9bf6-7576bfe01550"],"duration":"2113ms"}
+2026-10-06 22:51:29 [INFO]: User logged out: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 22:51:38 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 22:54:44 [INFO]: User logged out: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-06 22:54:52 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-06 22:54:56 [INFO]: WebSocket client connected: ws_1791316496901_wv7n191
+2026-10-06 22:54:57 [INFO]: WebSocket client disconnected: ws_1791316496901_wv7n191
+2026-10-06 22:54:57 [INFO]: WebSocket client connected: ws_1791316497058_10vez5x
+2026-10-06 22:54:57 [INFO]: WebSocket authenticated: ws_1791316497058_10vez5x
+2026-10-06 22:56:27 [INFO]: WebSocket client disconnected: ws_1791316497058_10vez5x
+2026-10-07 01:38:05 [INFO]: Starting server...
+2026-10-07 01:38:07 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-07 01:38:08 [INFO]: MongoDB connected successfully
+2026-10-07 01:38:08 [INFO]: ✅ Users table created
+2026-10-07 01:38:08 [INFO]: ✅ Streams table ready
+2026-10-07 01:38:09 [INFO]: ✅ Donations table ready
+2026-10-07 01:38:09 [INFO]: ✅ Tokens table created
+2026-10-07 01:38:10 [INFO]: Upstash Redis connected
+2026-10-07 01:38:12 [INFO]: Kafka connected successfully
+2026-10-07 01:38:12 [INFO]: Topics created successfully
+2026-10-07 01:38:32 [INFO]: WebSocket server running on /ws
+2026-10-07 01:38:32 [INFO]: RTMP Server running on port 1935
+2026-10-07 01:38:32 [INFO]: Server started on port 3000
+2026-10-07 01:41:00 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-07 01:41:19 [INFO]: WebSocket client connected: ws_1791326479431_9e0syej
+2026-10-07 01:41:19 [INFO]: WebSocket client disconnected: ws_1791326479431_9e0syej
+2026-10-07 01:41:19 [INFO]: WebSocket client connected: ws_1791326479450_lysf70m
+2026-10-07 01:41:19 [INFO]: WebSocket authenticated: ws_1791326479450_lysf70m
+2026-10-07 01:44:30 [INFO]: WebSocket client disconnected: ws_1791326479450_lysf70m
+2026-10-07 01:44:30 [INFO]: WebSocket client connected: ws_1791326670034_gpf6wx7
+2026-10-07 01:44:30 [INFO]: WebSocket client connected: ws_1791326670062_8if26xb
+2026-10-07 01:44:30 [INFO]: WebSocket client disconnected: ws_1791326670034_gpf6wx7
+2026-10-07 01:44:30 [INFO]: WebSocket authenticated: ws_1791326670062_8if26xb
+2026-10-07 01:52:37 [INFO]: WebSocket client disconnected: ws_1791326670062_8if26xb
+2026-10-07 01:52:44 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE id = ?\n      LIMIT 1\n    ","params":["4e168ac7-af94-4d0d-9bf6-7576bfe01550"],"duration":"3959ms"}
+2026-10-07 01:52:44 [INFO]: WebSocket client connected: ws_1791327164594_s219vhc
+2026-10-07 01:52:44 [INFO]: WebSocket client disconnected: ws_1791327164594_s219vhc
+2026-10-07 01:52:44 [INFO]: WebSocket client connected: ws_1791327164629_r3zxryt
+2026-10-07 01:52:44 [INFO]: WebSocket authenticated: ws_1791327164629_r3zxryt
+2026-10-07 01:53:24 [INFO]: WebSocket client disconnected: ws_1791327164629_r3zxryt
+2026-10-07 01:53:37 [INFO]: WebSocket client connected: ws_1791327217214_rwvnv0b
+2026-10-07 01:53:37 [INFO]: WebSocket client disconnected: ws_1791327217214_rwvnv0b
+2026-10-07 01:53:37 [INFO]: WebSocket client connected: ws_1791327217229_jdmspji
+2026-10-07 01:53:37 [INFO]: WebSocket authenticated: ws_1791327217229_jdmspji
+2026-10-07 01:53:40 [INFO]: WebSocket client disconnected: ws_1791327217229_jdmspji
+2026-10-07 01:57:13 [INFO]: User logged out: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-07 01:58:25 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-07 01:58:25 [INFO]: WebSocket client connected: ws_1791327505287_joielr9
+2026-10-07 01:58:25 [INFO]: WebSocket client disconnected: ws_1791327505287_joielr9
+2026-10-07 01:58:25 [INFO]: WebSocket client connected: ws_1791327505301_ftiokke
+2026-10-07 01:58:25 [INFO]: WebSocket authenticated: ws_1791327505301_ftiokke
+2026-10-07 02:08:53 [INFO]: WebSocket client disconnected: ws_1791327505301_ftiokke
+2026-10-07 02:08:56 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE id = ?\n      LIMIT 1\n    ","params":["4e168ac7-af94-4d0d-9bf6-7576bfe01550"],"duration":"2297ms"}
+2026-10-07 02:09:04 [INFO]: Social keys updated: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-07 02:39:04 [INFO]: WebSocket client connected: ws_1791329944828_jsigs2h
+2026-10-07 02:39:04 [INFO]: WebSocket client disconnected: ws_1791329944828_jsigs2h
+2026-10-07 02:39:04 [INFO]: WebSocket client connected: ws_1791329944861_xqe0cpi
+2026-10-07 02:39:04 [ERROR]: WebSocket auth error: jwt expired {"name":"TokenExpiredError","expiredAt":"2026-10-06T23:13:24.000Z"}
+TokenExpiredError: jwt expired
+    at D:\App_Live\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\App_Live\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (D:\App_Live\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyAccessToken (D:\App_Live\src\utils\token.ts:28:14)
+    at handleAuthenticate (D:\App_Live\src\websocket\handlers\message.ts:94:21)
+    at handleMessage (D:\App_Live\src\websocket\handlers\message.ts:24:15)
+    at WebSocket.<anonymous> (D:\App_Live\src\websocket\index.ts:22:7)
+    at WebSocket.emit (node:events:519:28)
+    at Receiver.receiverOnMessage (D:\App_Live\node_modules\ws\lib\websocket.js:1239:20)
+    at Receiver.emit (node:events:519:28)
+2026-10-07 02:39:07 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM tokens\n      WHERE refresh_token = ?\n      LIMIT 1\n    ","params":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRlMTY4YWM3LWFmOTQtNGQwZC05YmY2LTc1NzZiZmUwMTU1MCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MTMyNzUwNCwiZXhwIjoxNzkxOTMyMzA0fQ.IobolNI5Ip7nkVwExpNej1yAianwWLdNhSqkKnMUuns"],"duration":"2128ms"}
+2026-10-07 02:55:13 [INFO]: WebSocket client disconnected: ws_1791329944861_xqe0cpi
+2026-10-07 02:55:17 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM tokens\n      WHERE refresh_token = ?\n      LIMIT 1\n    ","params":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRlMTY4YWM3LWFmOTQtNGQwZC05YmY2LTc1NzZiZmUwMTU1MCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MTMyNzUwNCwiZXhwIjoxNzkxOTMyMzA0fQ.IobolNI5Ip7nkVwExpNej1yAianwWLdNhSqkKnMUuns"],"duration":"1297ms"}
+2026-10-07 02:55:17 [INFO]: WebSocket client connected: ws_1791330917791_nldw4x4
+2026-10-07 02:55:17 [INFO]: WebSocket client connected: ws_1791330917811_85nohwk
+2026-10-07 02:55:17 [INFO]: WebSocket authenticated: ws_1791330917791_nldw4x4
+2026-10-07 02:55:17 [INFO]: WebSocket authenticated: ws_1791330917811_85nohwk
+2026-10-07 04:10:59 [INFO]: WebSocket client disconnected: ws_1791330917791_nldw4x4
+2026-10-07 04:10:59 [INFO]: WebSocket client disconnected: ws_1791330917811_85nohwk
+2026-10-07 04:11:09 [WARN]: MongoDB disconnected
+2026-10-07 04:11:22 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM tokens\n      WHERE refresh_token = ?\n      LIMIT 1\n    ","params":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRlMTY4YWM3LWFmOTQtNGQwZC05YmY2LTc1NzZiZmUwMTU1MCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MTMyNzUwNCwiZXhwIjoxNzkxOTMyMzA0fQ.IobolNI5Ip7nkVwExpNej1yAianwWLdNhSqkKnMUuns"],"duration":"1327ms"}
+2026-10-07 04:11:22 [INFO]: WebSocket client connected: ws_1791335482729_kpe9sj0
+2026-10-07 04:11:22 [INFO]: WebSocket authenticated: ws_1791335482729_kpe9sj0
+2026-10-07 04:11:22 [INFO]: WebSocket client connected: ws_1791335482753_uyjc2qm
+2026-10-07 04:11:22 [INFO]: WebSocket authenticated: ws_1791335482753_uyjc2qm
+2026-10-07 04:21:32 [INFO]: WebSocket client disconnected: ws_1791335482729_kpe9sj0
+2026-10-07 04:21:32 [INFO]: WebSocket client disconnected: ws_1791335482753_uyjc2qm
+2026-10-07 04:21:36 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE id = ?\n      LIMIT 1\n    ","params":["4e168ac7-af94-4d0d-9bf6-7576bfe01550"],"duration":"1332ms"}
+2026-10-07 04:21:36 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM users\n      WHERE id = ?\n      LIMIT 1\n    ","params":["4e168ac7-af94-4d0d-9bf6-7576bfe01550"],"duration":"1492ms"}
+2026-10-07 04:21:36 [INFO]: WebSocket client connected: ws_1791336096580_20khg4w
+2026-10-07 04:21:36 [INFO]: WebSocket authenticated: ws_1791336096580_20khg4w
+2026-10-07 04:21:36 [INFO]: WebSocket client connected: ws_1791336096617_oonngbt
+2026-10-07 04:21:36 [INFO]: WebSocket authenticated: ws_1791336096617_oonngbt
+2026-10-07 04:21:50 [INFO]: WebSocket client disconnected: ws_1791336096617_oonngbt
+2026-10-07 04:22:16 [INFO]: User logged out: 4e168ac7-af94-4d0d-9bf6-7576bfe01550
+2026-10-07 04:22:44 [INFO]: WebSocket client disconnected: ws_1791336096580_20khg4w
+2026-10-07 20:05:03 [INFO]: Starting server...
+2026-10-07 20:05:06 [INFO]: MySQL connected successfully (gateway01.eu-central-1.prod.aws.tidbcloud.com)
+2026-10-07 20:05:08 [INFO]: MongoDB connected successfully
+2026-10-07 20:05:08 [INFO]: ✅ Users table created
+2026-10-07 20:05:08 [INFO]: ✅ Streams table ready
+2026-10-07 20:05:08 [INFO]: ✅ Donations table ready
+2026-10-07 20:05:08 [INFO]: ✅ Tokens table created
+2026-10-07 20:05:09 [INFO]: Upstash Redis connected
+2026-10-07 20:05:12 [INFO]: Kafka connected successfully
+2026-10-07 20:05:12 [INFO]: Topics created successfully
+2026-10-07 20:05:32 [INFO]: WebSocket server running on /ws
+2026-10-07 20:05:32 [INFO]: RTMP Server running on port 1935
+2026-10-07 20:05:32 [INFO]: Server started on port 3000
+2026-10-07 20:07:56 [INFO]: User logged in: ahmedwalidamin648@gmail.com
+2026-10-07 20:07:57 [INFO]: WebSocket client connected: ws_1791392877231_830oxsz
+2026-10-07 20:07:57 [INFO]: WebSocket authenticated: ws_1791392877231_830oxsz
+2026-10-07 20:07:57 [INFO]: WebSocket client connected: ws_1791392877286_4ada45d
+2026-10-07 20:07:57 [INFO]: WebSocket authenticated: ws_1791392877286_4ada45d
+2026-10-07 20:08:01 [INFO]: WebSocket client disconnected: ws_1791392877286_4ada45d
+2026-10-07 20:08:29 [INFO]: WebSocket client connected: ws_1791392909036_9s9neat
+2026-10-07 20:08:29 [INFO]: WebSocket authenticated: ws_1791392909036_9s9neat
+2026-10-07 20:08:29 [INFO]: WebSocket client connected: ws_1791392909069_ouyze0k
+2026-10-07 20:08:29 [INFO]: WebSocket authenticated: ws_1791392909069_ouyze0k
+2026-10-07 20:08:31 [INFO]: WebSocket client disconnected: ws_1791392909069_ouyze0k
+2026-10-07 20:27:46 [INFO]: WebSocket client disconnected: ws_1791392877231_830oxsz
+2026-10-07 20:27:46 [INFO]: WebSocket client disconnected: ws_1791392909036_9s9neat
+2026-10-07 20:28:06 [WARN]: MongoDB disconnected
+2026-10-07 20:28:09 [WARN]: Slow query detected: {"sql":"\n      SELECT *\n      FROM tokens\n      WHERE refresh_token = ?\n      LIMIT 1\n    ","params":["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRlMTY4YWM3LWFmOTQtNGQwZC05YmY2LTc1NzZiZmUwMTU1MCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MTM5Mjg3NSwiZXhwIjoxNzkxOTk3Njc1fQ.BH33By-JmsAGyAT5UQykPw0licuG8WWGSEonM7-PvWc"],"duration":"2206ms"}
+2026-10-08 02:19:58 [WARN]: MongoDB disconnected
