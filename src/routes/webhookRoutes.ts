@@ -2,6 +2,7 @@ import { Router } from 'express';
 import crypto from 'crypto';
 import { publishEvent } from '../config/kafka/kafka.js';
 import { logger } from '../utils/logger.js';
+import "dotenv/config.js"
 
 const WebhookRouter = Router();
 
