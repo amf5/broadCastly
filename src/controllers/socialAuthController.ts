@@ -180,7 +180,11 @@ export const getInstagramAuthUrl = (req: Request, res: Response) => {
     client_id: process.env.INSTAGRAM_APP_ID!,
     redirect_uri: process.env.INSTAGRAM_REDIRECT_URI!,
     state: userId,
-    scope: 'user_profile,user_media',
+    scope: [
+  'instagram_business_basic',
+  'instagram_business_manage_comments',
+  'instagram_business_manage_messages',
+].join(','),
     response_type: 'code',
   });
 
