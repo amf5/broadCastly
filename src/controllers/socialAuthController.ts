@@ -23,7 +23,8 @@ export const getYouTubeAuthUrl = (req: Request, res: Response) => {
   });
 
   const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?${params.toString()}`;
-  res.redirect(authUrl);
+
+  return res.json({ success: true, url: authUrl });
 };
 
 export const handleYouTubeCallback = async (req: Request, res: Response) => {
@@ -31,7 +32,9 @@ export const handleYouTubeCallback = async (req: Request, res: Response) => {
     const { code, state: userId } = req.query;
 
     if (!code || !userId) {
-      return res.redirect(`${FRONTEND_URL}/oauth/callback?error=missing_params`);
+      return res.redirect(
+        `${FRONTEND_URL}/social-accounts?error=missing_params`
+      );
     }
 
     // 1. Exchange code for tokens
@@ -59,7 +62,9 @@ export const handleYouTubeCallback = async (req: Request, res: Response) => {
     // 3. Save to DB
     const user = await findById(userId as string);
     if (!user) {
-      return res.redirect(`${FRONTEND_URL}/oauth/callback?error=user_not_found`);
+      return res.redirect(
+        `${FRONTEND_URL}/social-accounts?error=user_not_found`
+      );
     }
 
     const existingKeys = user.social_media_keys
@@ -77,10 +82,12 @@ export const handleYouTubeCallback = async (req: Request, res: Response) => {
 
     logger.info(`YouTube connected: ${userId}`);
 
-    res.redirect(`${FRONTEND_URL}/oauth/callback?success=true&platform=youtube`);
+    res.redirect(
+      `${FRONTEND_URL}/social-accounts?success=true&platform=youtube`
+    );
   } catch (error: any) {
     logger.error('YouTube OAuth error:', error);
-    res.redirect(`${FRONTEND_URL}/oauth/callback?error=youtube_failed`);
+    res.redirect(`${FRONTEND_URL}/social-accounts?error=youtube_failed`);
   }
 };
 
@@ -100,7 +107,8 @@ export const getFacebookAuthUrl = (req: Request, res: Response) => {
   });
 
   const authUrl = `https://www.facebook.com/v18.0/dialog/oauth?${params.toString()}`;
-  res.redirect(authUrl);
+
+  return res.json({ success: true, url: authUrl });
 };
 
 export const handleFacebookCallback = async (req: Request, res: Response) => {
@@ -108,7 +116,9 @@ export const handleFacebookCallback = async (req: Request, res: Response) => {
     const { code, state: userId } = req.query;
 
     if (!code || !userId) {
-      return res.redirect(`${FRONTEND_URL}/oauth/callback?error=missing_params`);
+      return res.redirect(
+        `${FRONTEND_URL}/social-accounts?error=missing_params`
+      );
     }
 
     // 1. Exchange code for user access token
@@ -136,7 +146,7 @@ export const handleFacebookCallback = async (req: Request, res: Response) => {
 
     const page = pagesRes.data.data?.[0];
     if (!page) {
-      return res.redirect(`${FRONTEND_URL}/oauth/callback?error=no_pages`);
+      return res.redirect(`${FRONTEND_URL}/social-accounts?error=no_pages`);
     }
 
     const pageAccessToken = page.access_token;
@@ -144,7 +154,9 @@ export const handleFacebookCallback = async (req: Request, res: Response) => {
     // 3. Save to DB
     const user = await findById(userId as string);
     if (!user) {
-      return res.redirect(`${FRONTEND_URL}/oauth/callback?error=user_not_found`);
+      return res.redirect(
+        `${FRONTEND_URL}/social-accounts?error=user_not_found`
+      );
     }
 
     const existingKeys = user.social_media_keys
@@ -162,10 +174,12 @@ export const handleFacebookCallback = async (req: Request, res: Response) => {
 
     logger.info(`Facebook connected: ${userId}`);
 
-    res.redirect(`${FRONTEND_URL}/oauth/callback?success=true&platform=facebook`);
+    res.redirect(
+      `${FRONTEND_URL}/social-accounts?success=true&platform=facebook`
+    );
   } catch (error: any) {
     logger.error('Facebook OAuth error:', error);
-    res.redirect(`${FRONTEND_URL}/oauth/callback?error=facebook_failed`);
+    res.redirect(`${FRONTEND_URL}/social-accounts?error=facebook_failed`);
   }
 };
 
@@ -181,23 +195,29 @@ export const getInstagramAuthUrl = (req: Request, res: Response) => {
     redirect_uri: process.env.INSTAGRAM_REDIRECT_URI!,
     state: userId,
     scope: [
-  'instagram_business_basic',
-  'instagram_business_manage_comments',
-  'instagram_business_manage_messages',
-].join(','),
+      'instagram_business_basic',
+      'instagram_business_manage_comments',
+      'instagram_business_manage_messages',
+    ].join(','),
     response_type: 'code',
   });
 
   const authUrl = `https://api.instagram.com/oauth/authorize?${params.toString()}`;
-  res.redirect(authUrl);
+
+  return res.json({ success: true, url: authUrl });
 };
 
-export const handleInstagramCallback = async (req: Request, res: Response) => {
+export const handleInstagramCallback = async (
+  req: Request,
+  res: Response
+) => {
   try {
     const { code, state: userId } = req.query;
 
     if (!code || !userId) {
-      return res.redirect(`${FRONTEND_URL}/oauth/callback?error=missing_params`);
+      return res.redirect(
+        `${FRONTEND_URL}/social-accounts?error=missing_params`
+      );
     }
 
     // 1. Exchange code for access token
@@ -218,7 +238,9 @@ export const handleInstagramCallback = async (req: Request, res: Response) => {
     // 2. Save to DB
     const user = await findById(userId as string);
     if (!user) {
-      return res.redirect(`${FRONTEND_URL}/oauth/callback?error=user_not_found`);
+      return res.redirect(
+        `${FRONTEND_URL}/social-accounts?error=user_not_found`
+      );
     }
 
     const existingKeys = user.social_media_keys
@@ -235,9 +257,11 @@ export const handleInstagramCallback = async (req: Request, res: Response) => {
 
     logger.info(`Instagram connected: ${userId}`);
 
-    res.redirect(`${FRONTEND_URL}/oauth/callback?success=true&platform=instagram`);
+    res.redirect(
+      `${FRONTEND_URL}/social-accounts?success=true&platform=instagram`
+    );
   } catch (error: any) {
     logger.error('Instagram OAuth error:', error);
-    res.redirect(`${FRONTEND_URL}/oauth/callback?error=instagram_failed`);
+    res.redirect(`${FRONTEND_URL}/social-accounts?error=instagram_failed`);
   }
 };
