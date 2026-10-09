@@ -102,7 +102,7 @@ export const getFacebookAuthUrl = (req: Request, res: Response) => {
     client_id: process.env.FACEBOOK_APP_ID!,
     redirect_uri: process.env.FACEBOOK_REDIRECT_URI!,
     state: userId,
-    scope: 'pages_read_engagement,pages_manage_engagement',
+    scope: 'pages_read_engagement',
     response_type: 'code',
   });
 
