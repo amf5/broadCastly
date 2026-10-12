@@ -1,5 +1,16 @@
-import rateLimit from 'express-rate-limit';
-import { Request } from 'express';
+
+import { rateLimit, ipKeyGenerator } from 'express-rate-limit';
+import type { Request } from 'express';
+
+const getRateLimitKey = (req: Request): string => {
+  const userId = req.user?.id;
+
+  if (userId) {
+    return String(userId);
+  }
+
+  return ipKeyGenerator(req.ip ?? '127.0.0.1');
+};
 
 export const generalLimiter = rateLimit({
   windowMs: 5 * 60 * 1000,
@@ -116,9 +127,7 @@ export const createCustomLimiter = (
     },
     standardHeaders: true,
     legacyHeaders: false,
-    keyGenerator: (req: Request) => {
-      return (req.user?.id || req.ip) as string;
-    },
+    keyGenerator: getRateLimitKey,
   });
 };
 
@@ -127,21 +136,21 @@ export const userRateLimiter = rateLimit({
   max: 3,
   message: {
     success: false,
-    message: '⚠️ You have exceeded the limit of 3 requests per hour. Please try again later.',
+    message:
+      '⚠️ You have exceeded the limit of 3 requests per hour. Please try again later.',
   },
   standardHeaders: true,
   legacyHeaders: false,
-  keyGenerator: (req: Request) => {
-    return (req.user?.id || req.ip) as string;
-  },
+  keyGenerator: getRateLimitKey,
   skip: (req: Request) => {
     return req.user?.role === 'admin';
   },
-  handler: (req, res) => {
+  handler: (_req, res) => {
     res.status(429).json({
       success: false,
-      message: '⚠️ You have exceeded the limit of 3 requests per hour. Please try again later.',
-      retryAfter: Math.ceil(60 * 60),
+      message:
+        '⚠️ You have exceeded the limit of 3 requests per hour. Please try again later.',
+      retryAfter: 60 * 60,
     });
   },
 });
@@ -159,3 +168,4 @@ export default {
   createCustomLimiter,
   userRateLimiter,
 };
+
